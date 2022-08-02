@@ -1,8 +1,8 @@
 export default interface MainFilter {
-  month?: number;
+  month: number;
   startDate?: Date;
   endDate?: Date;
-  category?: Categories;
+  category: Categories;
   searchString?: string;
 }
 
