@@ -2,74 +2,74 @@
   {
     "abbreviation": "Jan",
     "name": "January",
-    "order": 1,
+    "order": 0,
     "name-sk": "Január"
   },
   {
     "abbreviation": "Feb",
 
     "name": "February",
-    "order": 2,
+    "order": 1,
     "name-sk": "Február"
   },
   {
     "abbreviation": "Mar",
     "name": "March",
-    "order": 3,
+    "order": 2,
     "name-sk": "Marec"
   },
   {
     "abbreviation": "Apr",
     "name": "April",
-    "order": 4,
+    "order": 3,
     "name-sk": "Apríl"
   },
   {
     "abbreviation": "May",
     "name": "May",
-    "order": 5,
+    "order": 4,
     "name-sk": "Máj"
   },
   {
     "abbreviation": "Jun",
     "name": "June",
-    "order": 6,
+    "order": 5,
     "name-sk": "Jún"
   },
   {
     "abbreviation": "Jul",
     "name": "July",
-    "order": 7,
+    "order": 6,
     "name-sk": "Júl"
   },
   {
     "abbreviation": "Aug",
     "name": "August",
-    "order": 8,
+    "order": 7,
     "name-sk": "August"
   },
   {
     "abbreviation": "Sep",
     "name": "September",
-    "order": 9,
+    "order": 8,
     "name-sk": "September"
   },
   {
     "abbreviation": "Oct",
     "name": "October",
-    "order": 10,
+    "order": 9,
     "name-sk": "Október"
   },
   {
     "abbreviation": "Nov",
     "name": "November",
-    "order": 11,
+    "order": 10,
     "name-sk": "November"
   },
   {
     "abbreviation": "Dec",
     "name": "December",
-    "order": 12,
+    "order": 11,
     "name-sk": "December"
   }
 ]

@@ -5,7 +5,7 @@ import IFilterObj from "../Interfaces/mainFilter";
 
 const MainFilter = () => {
   const [filterObject, setFilterObject] = useState<IFilterObj>({
-    month: 0,
+    month: 9999,
     // startDate: new Date(),
     // endDate: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
     category: {
@@ -72,6 +72,13 @@ const MainFilter = () => {
       <Form.Select
         aria-label="Vyberte mesiac rozbaľovacie menu"
         className="mt-3"
+        value={filterObject.month}
+        onChange={(e) => {
+          setFilterObject({
+            ...filterObject,
+            month: parseInt(e.target.value),
+          });
+        }}
       >
         <option value="9999">Vyberte mesiac</option>
         {months.map((month) => (
