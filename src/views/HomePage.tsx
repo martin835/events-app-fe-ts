@@ -34,7 +34,7 @@ const HomePage = () => {
             <MainFilter />
             <h2 className="mt-4">Zoznam divadiel: </h2>
             {theaters.map((organizer) => (
-              <OrganizerCard organizer={organizer} />
+              <OrganizerCard organizer={organizer} key={organizer._id} />
             ))}
           </Col>
         </Row>

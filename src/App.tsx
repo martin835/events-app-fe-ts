@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import MyHeader from "./components/MyHeader";
 import HomePage from "./views/HomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import OrganizerPage from "./views/OrganizerPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MyHeader />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/organizer/:id" element={<OrganizerPage />} />
       </Routes>
     </>
   );
