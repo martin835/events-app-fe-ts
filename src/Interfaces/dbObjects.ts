@@ -8,6 +8,7 @@ export interface IOrganizer {
   city: string;
   street: string;
   streetNumber: string;
+  top: string;
   zip: string;
   remarks: string;
 }

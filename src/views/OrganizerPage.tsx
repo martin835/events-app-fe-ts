@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import { SiGooglemaps } from "react-icons/si";
-import { useParams } from "react-router-dom";
+import { TbExternalLink } from "react-icons/tb";
+import { Link, useParams } from "react-router-dom";
 import { IOrganizer } from "../Interfaces/dbObjects";
 
 type NullOrObject = null | IOrganizer;
@@ -54,6 +55,19 @@ function OrganizerPage() {
                     {organizer?.street} {organizer?.streetNumber},{" "}
                     {organizer?.zip}, {organizer?.city}
                   </div>
+                  <div>
+                    <strong>
+                      {" "}
+                      <TbExternalLink /> Web:
+                    </strong>{" "}
+                  </div>
+                  <a
+                    href={`${organizer?.URL}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {organizer?.URL}
+                  </a>
                 </div>
               </Col>
               <Col md={3} className="mr-auto">
