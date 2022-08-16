@@ -22,7 +22,7 @@ const OrganizerCard = (props: OrganizerCardProps) => {
             variant="primary"
             onClick={() => navigate(`organizer/${props.organizer._id}`)}
           >
-            Go somewhere
+            Detail
           </Button>
         </Card.Body>
       </Card>
